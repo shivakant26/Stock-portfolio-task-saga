@@ -1,0 +1,152 @@
+.card{
+    margin: 20px 0px;
+    .main-wr{
+        display: flex;
+        .stock-share{
+            display: flex;
+            flex-grow: 1;
+        p{
+            margin: 0;
+        }
+        .itot{
+            width: 70px;
+            p{
+                color: #94a6c0;
+                font-size: 14px;
+            }
+            h6{
+                color: #00dafc;
+                .dolor{
+                    color: gray;
+                    font-size: 14px;
+                    padding: 0px 4px;
+                }
+            }
+        }
+        .ishare{
+            text-align: left;
+            width: 149px;
+            font-size: 14px;
+            .gr-text{
+                color:#00a741;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+        }
+        .stock-quantity{
+            display: flex;
+            flex-grow: 1;
+        }
+        
+        .stock-market-value{
+            display: flex;
+            flex-grow: 1;
+        }
+        .stock-unrealized{
+            display: flex;
+            flex-grow: 1;
+        }
+        .stock-button{
+            button[type="button"]{
+                margin: 2px 0px;
+            }
+        }
+    }
+}
+
+p{
+    margin: 0;
+}
+ul{
+    list-style: none;
+    padding: 0 !important;
+    text-align: left;
+    li{
+        .com-span{
+            margin-left: 5px;
+        }
+    }    
+}
+.stock-row{
+    display: flex;
+    .left-div{
+        width: 55%;
+        text-align: left;
+        font-size: 13px;
+        color: gray;
+        text-transform: capitalize;
+        strong{
+            color: #000;
+        }
+        svg{
+            margin-right: 5px;
+        }
+    }
+    .right-div{
+        width: 37%;
+        font-size: 13px;
+        
+    }
+    .progress{
+        width: 86%;
+        height: 10px;
+        .progress-bar{
+            background-color: #00cf60;
+        }
+    }
+}
+.chart-section{
+    h5{
+        text-align: left;
+        padding: 10px 20px;
+    }
+    #chart{
+        position: relative;
+        .apexcharts-legend.apexcharts-align-center.apx-legend-position-right{
+            position: absolute;
+            top: 0 !important;
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+.up{
+    background-color: #00a741;
+}
+.down{
+    background-color:red;
+}
+.bar {
+    height: 7px !important;
+}
+
+.graph {
+	width: 91%;
+	background-color: #eaeaea;
+    height: 10px;
+    border-radius: 5px;
+}
+.ext {
+	width: 50%;
+}
+.ext.pos {
+    position: relative;
+    left: 84px;
+}
+.ext.neg .bar {
+  float: right;
+  margin-bottom: 5px;
+  background-color: red;
+  padding: 5px 0px;
+  
+}
+.ext.pos .bar {
+  background-color: #00cf6a;
+  padding: 5px 0px;
+}
+
+.bar {
+    height: 5px;
+}
